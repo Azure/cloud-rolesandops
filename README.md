@@ -6,8 +6,6 @@
 
 A well-managed cloud is one that where the items in the below list are considered and managed. This list represent an expansion of the 5 pillars of the [**Microsoft Azure Well-Architected Framework**](https://docs.microsoft.com/azure/architecture/framework/?WT.mc_id=Portal-fx), and are suggested as a framework for managing Azure environments.
 
-Activities, alerts and policies for managing services, platform resources, application resources and solutions are presented for these items in this project.
-
 ### Compliant (WAF: Security)
 
 Services that can be used to manage compliance in Azure include:
@@ -130,6 +128,8 @@ Services that can be used to provide operational excellence in Azure include:
 - Automation (AA, LA, Functions)
 
 [![](https://github.com/Azure/cloud-rolesandops/blob/main/images/operationalexcellence.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/operationalexcellence.png)
+
+Activities, alerts and policies for managing services, platform resources, application resources and solutions are presented for these items in this project.
 
 ### Example 1: Azure Virtual Desktop
 
