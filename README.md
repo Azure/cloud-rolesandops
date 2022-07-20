@@ -139,6 +139,26 @@ Activities, alerts and policies for managing services, platform resources, appli
 
 [![](https://github.com/Azure/cloud-rolesandops/blob/main/images/exr.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/exr.png)
 
+## Artifacts
+
+1. Excel spreadsheet (with task descriptions, RACI, frequency, links and notes)
+2. Azure Portal Workbook (with service management information, suggested documentation, a dynamic environment state, a 'management score' based on key environment indicators, tasks, initiatives)
+
+### Documentation Templates
+[![](https://github.com/Azure/cloud-rolesandops/blob/main/images/wbdocs.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/wbdocs.png)
+
+### Task Definitions
+[![](https://github.com/Azure/cloud-rolesandops/blob/main/images/wbtasks.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/wbtasks.png)
+
+### Initiative Definitions
+[![](https://github.com/Azure/cloud-rolesandops/blob/main/images/wbinitiatives.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/wbinitiatives.png)
+
+### Environment
+[![](https://github.com/Azure/cloud-rolesandops/blob/main/images/wbenv.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/wbenv.png)
+
+### Management Score
+[![](https://github.com/Azure/cloud-rolesandops/blob/main/images/wbscore.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/wbscore.png)
+
 ## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
