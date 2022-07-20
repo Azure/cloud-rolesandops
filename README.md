@@ -4,7 +4,7 @@
 
 ## What is a well-managed cloud?
 
-A well-managed cloud is one that where the items in the below list are considered and managed. This list represent an expansion of the 5 pillars of the [**Microsoft Azure Well-Architected Framework**](https://docs.microsoft.com/azure/architecture/framework/?WT.mc_id=Portal-fx), and is suggested as a framework for managing Azure environments.
+A well-managed cloud is one that is compliant, observable, recoverable, reliable, performant, updateable, cost managed, secured, inventoried and operationally excellent. This list represent an expansion of the 5 pillars of the [**Microsoft Azure Well-Architected Framework**](https://docs.microsoft.com/azure/architecture/framework/?WT.mc_id=Portal-fx), and is suggested as a framework for managing Azure environments.
 
 ### Compliant (WAF: Security)
 
@@ -142,7 +142,7 @@ Activities, alerts and policies for managing services, platform resources, appli
 ## Artifacts
 
 1. Excel spreadsheet (with task descriptions, RACI, frequency, links and notes)
-2. Azure Portal Workbook (with service management information, suggested documentation, a dynamic environment state, a 'management score' based on key environment indicators, tasks, initiatives)
+2. Azure Workbook (with service management information, suggested documentation, a dynamic environment state, a 'management score' based on key environment indicators, tasks, initiatives)
 
 ### Documentation Templates
 [![](https://github.com/Azure/cloud-rolesandops/blob/main/images/wbdocs.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/wbdocs.png)
