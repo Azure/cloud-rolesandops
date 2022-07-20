@@ -6,23 +6,11 @@
 
 A well-managed cloud is one that where the items in the below list are considered and managed. This list represent an expansion of the 5 pillars of the [**Microsoft Azure Well-Architected Framework**](https://docs.microsoft.com/azure/architecture/framework/?WT.mc_id=Portal-fx), and are suggested as a framework for managing Azure environments.
 
-- Compliant (WAF: Security)
-- Observable (WAF: Operational Excellence)
-- Recoverable (WAF: Reliability)
-- Reliable (WAF: Reliability)
-- Performant (WAF: Performance)
-- Updateable (WAF: Reliability)
-- Cost Managed (WAF: Cost Management)
-- Secured (WAF: Security)
-- Inventoried (WAF: Operational Excellence)
-- Operational Excellence (WAF: Operational Excellence)
-
 Activities, alerts and policies for managing services, platform resources, application resources and solutions are presented for these items in this project.
 
-### Compliant
+### Compliant (WAF: Security)
 
 Services that can be used to manage compliance in Azure include:
-
 - Azure Devops Services
 - Github
 - Azure Policy
@@ -34,10 +22,9 @@ Services that can be used to manage compliance in Azure include:
 
 [![](https://github.com/Azure/cloud-rolesandops/blob/main/images/compliant.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/compliant.png)
 
-### Observable
+### Observable (WAF: Operational Excellence)
 
 Services that can be used to manage observability in Azure include:
-
 - Azure Monitor
 - Log Analytics
 - Microsoft Sentinel
@@ -48,22 +35,20 @@ Services that can be used to manage observability in Azure include:
 
 [![](https://github.com/Azure/cloud-rolesandops/blob/main/images/observable.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/observable.png)
 
-### Recoverable
+### Recoverable (WAF: Reliability)
 
 Services that can be used to manage recovery in Azure include:
-
-- Backup
-- Site Recovery
+- Azure Backup
+- Azure Site Recovery
 - Devops Redeploy
 
 [![](https://github.com/Azure/cloud-rolesandops/blob/main/images/recoverable.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/recoverable.png)
 
-### Reliable
+### Reliable (WAF: Reliability)
 
 Services that can be used to manage reliability in Azure include:
-
-- Advisor
-- Chaos Studio
+- Azure Advisor
+- Azure Chaos Studio
 - Azure Monitor
 - Log Analytics
 - Workbooks
@@ -71,11 +56,10 @@ Services that can be used to manage reliability in Azure include:
 
 [![](https://github.com/Azure/cloud-rolesandops/blob/main/images/reliable.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/reliable.png)
 
-### Performant
+### Performant (WAF: Performance)
 
 Services that can be used to manage performance in Azure include:
-
-- Advisor
+- Azure Advisor
 - Azure Monitor
 - Log Analytics
 - Microsoft Sentinel
@@ -85,32 +69,29 @@ Services that can be used to manage performance in Azure include:
 
 [![](https://github.com/Azure/cloud-rolesandops/blob/main/images/performant.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/performant.png)
 
-### Updateable
+### Updateable (WAF: Reliability)
 
 Services that can be used to manage updates in Azure include:
-
-- Advisor
+- Azure Advisor
 - Customer managed via UM and LAWS
 - Planned maintenance (Service Health)
 - Devops Update
 
 [![](https://github.com/Azure/cloud-rolesandops/blob/main/images/updateable.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/updateable.png)
 
-### Cost Managed
+### Cost Managed (WAF: Cost Management)
 
 Services that can be used to manage cost in Azure include:
-
-- Advisor
+- Azure Advisor
 - Cost Management & Billing
 - EA Portal (Account hierarchy, credit balance, cost for each department, account, and subscription)
 
 [![](https://github.com/Azure/cloud-rolesandops/blob/main/images/cost.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/cost.png)
 
-### Secured
+### Secured (WAF: Security)
 
 Services that can be used to manage security in Azure include:
-
-- Advisor
+- Azure Advisor
 - AAD
 - MFA
 - CA
@@ -125,23 +106,21 @@ Services that can be used to manage security in Azure include:
 - DDoS
 - NSG
 
-[![](https://github.com/Azure/cloud-rolesandops/blob/main/images/secured.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/secured.png)
+[![](https://github.com/Azure/cloud-rolesandops/blob/main/images/secure.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/secure.png)
 
-### Inventoried
+### Inventoried (WAF: Operational Excellence)
 
 Services that can be used to manage inventory in Azure include:
-
-- Resource graph
+- Azure Resource graph
 - Defender for Cloud (Inventory)
 - Automation (Change Tracking & Inventory)
 
 [![](https://github.com/Azure/cloud-rolesandops/blob/main/images/inventory.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/inventory.png)
 
-### Operational Excellence
+### Operational Excellence (WAF: Operational Excellence)
 
 Services that can be used to provide operational excellence in Azure include:
-
-- Advisor
+- Azure Advisor
 - People
 - Process
 - RACI
@@ -149,8 +128,16 @@ Services that can be used to provide operational excellence in Azure include:
 - Reports
 - Reviews
 - Automation (AA, LA, Functions)
-- 
+
 [![](https://github.com/Azure/cloud-rolesandops/blob/main/images/operationalexcellence.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/operationalexcellence.png)
+
+### Example 1: Azure Virtual Desktop
+
+[![](https://github.com/Azure/cloud-rolesandops/blob/main/images/avd.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/avd.png)
+
+### Example 2: ExpressRoute
+
+[![](https://github.com/Azure/cloud-rolesandops/blob/main/images/exr.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/exr.png)
 
 ## Contributing
 
