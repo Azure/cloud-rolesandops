@@ -38,8 +38,8 @@ Services that can be used to manage observability in Azure include:
 ### Recoverable (WAF: Reliability)
 
 Services that can be used to manage recovery in Azure include:
-- Backup
-- Site Recovery
+- Azure Backup
+- Azure Site Recovery
 - Devops Redeploy
 
 [![](https://github.com/Azure/cloud-rolesandops/blob/main/images/recoverable.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/recoverable.png)
@@ -47,8 +47,8 @@ Services that can be used to manage recovery in Azure include:
 ### Reliable (WAF: Reliability)
 
 Services that can be used to manage reliability in Azure include:
-- Advisor
-- Chaos Studio
+- Azure Advisor
+- Azure Chaos Studio
 - Azure Monitor
 - Log Analytics
 - Workbooks
@@ -59,7 +59,7 @@ Services that can be used to manage reliability in Azure include:
 ### Performant (WAF: Performance)
 
 Services that can be used to manage performance in Azure include:
-- Advisor
+- Azure Advisor
 - Azure Monitor
 - Log Analytics
 - Microsoft Sentinel
@@ -72,7 +72,7 @@ Services that can be used to manage performance in Azure include:
 ### Updateable (WAF: Reliability)
 
 Services that can be used to manage updates in Azure include:
-- Advisor
+- Azure Advisor
 - Customer managed via UM and LAWS
 - Planned maintenance (Service Health)
 - Devops Update
@@ -82,7 +82,7 @@ Services that can be used to manage updates in Azure include:
 ### Cost Managed (WAF: Cost Management)
 
 Services that can be used to manage cost in Azure include:
-- Advisor
+- Azure Advisor
 - Cost Management & Billing
 - EA Portal (Account hierarchy, credit balance, cost for each department, account, and subscription)
 
@@ -91,7 +91,7 @@ Services that can be used to manage cost in Azure include:
 ### Secured (WAF: Security)
 
 Services that can be used to manage security in Azure include:
-- Advisor
+- Azure Advisor
 - AAD
 - MFA
 - CA
@@ -111,7 +111,7 @@ Services that can be used to manage security in Azure include:
 ### Inventoried (WAF: Operational Excellence)
 
 Services that can be used to manage inventory in Azure include:
-- Resource graph
+- Azure Resource graph
 - Defender for Cloud (Inventory)
 - Automation (Change Tracking & Inventory)
 
@@ -120,7 +120,7 @@ Services that can be used to manage inventory in Azure include:
 ### Operational Excellence (WAF: Operational Excellence)
 
 Services that can be used to provide operational excellence in Azure include:
-- Advisor
+- Azure Advisor
 - People
 - Process
 - RACI
