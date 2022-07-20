@@ -2,6 +2,156 @@
 
 [![](https://github.com/Azure/cloud-rolesandops/blob/main/images/list.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/list.png)
 
+## What is a well-managed cloud?
+
+A well-managed cloud is one that where the items in the below list are considered and managed. This list represent an expansion of the 5 pillars of the [**Microsoft Azure Well-Architected Framework**](https://docs.microsoft.com/azure/architecture/framework/?WT.mc_id=Portal-fx), and are suggested as a framework for managing Azure environments.
+
+- Compliant (WAF: Security)
+- Observable (WAF: Operational Excellence)
+- Recoverable (WAF: Reliability)
+- Reliable (WAF: Reliability)
+- Performant (WAF: Performance)
+- Updateable (WAF: Reliability)
+- Cost Managed (WAF: Cost Management)
+- Secured (WAF: Security)
+- Inventoried (WAF: Operational Excellence)
+- Operational Excellence (WAF: Operational Excellence)
+
+Activities, alerts and policies for managing services, platform resources, application resources and solutions are presented for these items in this project.
+
+### Compliant
+
+Services that can be used to manage compliance in Azure include:
+
+- Azure Devops Services
+- Github
+- Azure Policy
+- Defender for Cloud
+- Azure Monitor
+- Azure Resource Graph
+- In-guest VM Policy
+- Desired State Configuration
+
+[![](https://github.com/Azure/cloud-rolesandops/blob/main/images/compliant.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/compliant.png)
+
+### Observable
+
+Services that can be used to manage observability in Azure include:
+
+- Azure Monitor
+- Log Analytics
+- Microsoft Sentinel
+- Defender for Cloud
+- AAD Audit and Sign-in
+- Activity Log
+- Network Watcher
+
+[![](https://github.com/Azure/cloud-rolesandops/blob/main/images/observable.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/observable.png)
+
+### Recoverable
+
+Services that can be used to manage recovery in Azure include:
+
+- Backup
+- Site Recovery
+- Devops Redeploy
+
+[![](https://github.com/Azure/cloud-rolesandops/blob/main/images/recoverable.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/recoverable.png)
+
+### Reliable
+
+Services that can be used to manage reliability in Azure include:
+
+- Advisor
+- Chaos Studio
+- Azure Monitor
+- Log Analytics
+- Workbooks
+- Alerts that prevent downtime or reduce MTTR
+
+[![](https://github.com/Azure/cloud-rolesandops/blob/main/images/reliable.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/reliable.png)
+
+### Performant
+
+Services that can be used to manage performance in Azure include:
+
+- Advisor
+- Azure Monitor
+- Log Analytics
+- Microsoft Sentinel
+- Metrics
+- Workbooks
+- Network Watcher
+
+[![](https://github.com/Azure/cloud-rolesandops/blob/main/images/performant.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/performant.png)
+
+### Updateable
+
+Services that can be used to manage updates in Azure include:
+
+- Advisor
+- Customer managed via UM and LAWS
+- Planned maintenance (Service Health)
+- Devops Update
+
+[![](https://github.com/Azure/cloud-rolesandops/blob/main/images/updateable.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/updateable.png)
+
+### Cost Managed
+
+Services that can be used to manage cost in Azure include:
+
+- Advisor
+- Cost Management & Billing
+- EA Portal (Account hierarchy, credit balance, cost for each department, account, and subscription)
+
+[![](https://github.com/Azure/cloud-rolesandops/blob/main/images/cost.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/cost.png)
+
+### Secured
+
+Services that can be used to manage security in Azure include:
+
+- Advisor
+- AAD
+- MFA
+- CA
+- PIM
+- Role Entitlement
+- Policy
+- In-Guest Policy
+- Network Watcher
+- Defender for Cloud
+- Microsoft Sentinel
+- Key Vault
+- DDoS
+- NSG
+
+[![](https://github.com/Azure/cloud-rolesandops/blob/main/images/secured.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/secured.png)
+
+### Inventoried
+
+Services that can be used to manage inventory in Azure include:
+
+- Resource graph
+- Defender for Cloud (Inventory)
+- Automation (Change Tracking & Inventory)
+
+[![](https://github.com/Azure/cloud-rolesandops/blob/main/images/inventory.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/inventory.png)
+
+### Operational Excellence
+
+Services that can be used to provide operational excellence in Azure include:
+
+- Advisor
+- People
+- Process
+- RACI
+- Dashboards
+- Reports
+- Reviews
+- Automation (AA, LA, Functions)
+- 
+[![](https://github.com/Azure/cloud-rolesandops/blob/main/images/operationalexcellence.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/operationalexcellence.png)
+
 ## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
