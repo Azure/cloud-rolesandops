@@ -12,15 +12,15 @@ This repository provides recommendations for cloud roles, day-to-day routine tas
 - [Basic Azure portal workbook](https://github.com/Azure/cloud-rolesandops/releases/download/v0.91b/Planning.Guide.for.Cloud.Roles.and.Operations.Management.v0.91b.workbook)
     - Environment information along with task and initiative direction in the Azure portal
     - Also includes service management information, suggested documentation and a a 'management score' (based on key indicators of management practices in the environment)
-    - Documentation Templates
+    - Documentation templates
     [![](https://github.com/Azure/cloud-rolesandops/blob/main/images/wbdocs.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/wbdocs.png)
-    - Task Definitions
+    - Task definitions
     [![](https://github.com/Azure/cloud-rolesandops/blob/main/images/wbtasks.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/wbtasks.png)
-    - Initiative Definitions
+    - Initiative definitions
     [![](https://github.com/Azure/cloud-rolesandops/blob/main/images/wbinitiatives.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/wbinitiatives.png)
     - Environment
     [![](https://github.com/Azure/cloud-rolesandops/blob/main/images/wbenv.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/wbenv.png)
-    - Management Score
+    - Management score
     [![](https://github.com/Azure/cloud-rolesandops/blob/main/images/wbscore.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/wbscore.png)
 - [Updateable Azure portal workbook](https://github.com/Azure/cloud-rolesandops/tree/main/updateable%20workbook)
     - Updateable version of the workbook (allows simple excel updates that flow through to Azure)
