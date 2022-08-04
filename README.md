@@ -9,7 +9,8 @@ Artefacts include:
     - Use as-as, or import to Devops (e.g, [Azure Devops work items](https://docs.microsoft.com/en-us/azure/devops/boards/queries/import-work-items-from-csv?view=azure-devops) or [Github issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue)) or ITSM
 - [Azure portal workbook](https://github.com/Azure/cloud-rolesandops/releases/download/v0.91b/Planning.Guide.for.Cloud.Roles.and.Operations.Management.v0.91b.workbook)
     - Environment information along with task and initiative direction in the Azure portal
-- [Azure portal workbook (updateable with Excel on the web and a logic app)]()
+- [Azure portal workbook]()
+    - updateable with Excel on the web and a logic app
 
 ## What is a well-managed cloud?
 
