@@ -4,7 +4,7 @@
 
 This repository provides recommendations for cloud roles, day-to-day routine tasks, and initiatives for targeted operations. It is intended to be a starting point for operating Azure.
 
-Artefacts:
+**Artefacts:**
 - [Excel spreadsheet](https://github.com/Azure/cloud-rolesandops/releases/download/v0.91b/cromv09.xlsx)
     - Use as-as, or import to Devops (e.g, [Azure Devops work items](https://docs.microsoft.com/en-us/azure/devops/boards/queries/import-work-items-from-csv?view=azure-devops) or [Github issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue)) or ITSM
 - [Basic Azure portal workbook](https://github.com/Azure/cloud-rolesandops/releases/download/v0.91b/Planning.Guide.for.Cloud.Roles.and.Operations.Management.v0.91b.workbook)
@@ -12,6 +12,36 @@ Artefacts:
 - [Updateable Azure portal workbook](https://github.com/Azure/cloud-rolesandops/tree/main/updateable%20workbook)
     - Updateable version of the workbook (allows simple excel updates that flow through to Azure)
     - Requires Excel on the web, an office script, an Azure Logic App, and an Azure Log Analytics Workspace
+
+**Task table of contents:**
+
+| Category  | Technology  | Version  | Tasks  |
+| ------------ | ------------ | ------------ | ------------ |
+| Foundation  | Generic  | Pilot  | 60 |
+| Platform  | Azure Bastion  | Pilot  | 11 |
+| Platform  | Azure Firewall  | Pilot  | 48 |
+| Platform  | Azure Key Vault  | Pilot  | 33 |
+| Platform  | Azure Storage  | Pilot  | 33 |
+| Platform  | Azure Virtual Network  | Pilot  | 53 |
+| Platform  | ExpressRoute  | Pilot  | 43 |
+| Service  | Active Directory Domain Services | Pilot  | 21 |
+| Service  | Azure Active Directory | Pilot  | 44 |
+| Service  | Azure Advisor | Pilot  | 15 |
+| Service  | Azure Backup | Pilot  | 49 |
+| Service  | Azure Monitor | Pilot  | 75 |
+| Service  | Azure Site Recovery | Pilot  | 30 |
+| Service  | Azure Update Management | Pilot  | 29 |
+| Service  | Defender for Cloud  | Pilot  | 33 |
+| Service  | Microsoft Sentinel  | Pilot  | 48 |
+| Application  | Application Gateway  | Pilot  | 48 |
+| Application  | Azure App Service | Pilot  | 46 |
+| Application  | Application Gateway  | Pilot  | 48 |
+| Application  | Azure Data Factory  | Pilot  | 42 |
+| Application  | Azure Databricks  | Pilot  | 34 |
+| Application  | Azure SQL  | Pilot  | 96 |
+| Application  | Azure Virtual Machines  | Pilot  | 53 |
+| Solution  | Azure Virtual Desktop  | Pilot  | 59 |
+| Solution  | SAP on Azure  | Pilot  | 46 |
 
 ## What is a well-managed cloud?
 
