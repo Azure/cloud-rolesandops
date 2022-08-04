@@ -142,7 +142,7 @@ Services that can be used to provide operational excellence in Azure include:
 
 ## Examples
 
-Activities, alerts and policies for managing services, platform resources, application resources and solutions are presented for these items in this project.
+Activities, alerts and policies for Azure services, platform resources, application resources and solutions are presented for each of the critical areas of management in this project.
 
 ### Example 1: Azure Virtual Desktop
 
