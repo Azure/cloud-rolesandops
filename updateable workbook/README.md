@@ -81,4 +81,5 @@ interface TableData {
 }
 ```
 - [Azure Logic App](https://docs.microsoft.com/en-us/azure/logic-apps/)
-[<img src="https://raw.githubusercontent.com/Azure/cloud-rolesandops/main/images/logicapp.jpg" width="500"/>](https://raw.githubusercontent.com/Azure/cloud-rolesandops/main/images/logicapp.jpg)
+
+[<img src="https://raw.githubusercontent.com/Azure/cloud-rolesandops/main/images/logicapp.jpg" width="750"/>](https://raw.githubusercontent.com/Azure/cloud-rolesandops/main/images/logicapp.jpg)
