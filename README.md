@@ -140,6 +140,8 @@ Services that can be used to provide operational excellence in Azure include:
 
 [![](https://github.com/Azure/cloud-rolesandops/blob/main/images/operationalexcellence.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/operationalexcellence.png)
 
+## Examples
+
 Activities, alerts and policies for managing services, platform resources, application resources and solutions are presented for these items in this project.
 
 ### Example 1: Azure Virtual Desktop
