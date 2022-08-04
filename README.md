@@ -7,10 +7,11 @@ This repository provides recommendations for cloud roles, day-to-day routine tas
 Artefacts include:
 - [Excel spreadsheet](https://github.com/Azure/cloud-rolesandops/releases/download/v0.91b/cromv09.xlsx)
     - Use as-as, or import to Devops (e.g, [Azure Devops work items](https://docs.microsoft.com/en-us/azure/devops/boards/queries/import-work-items-from-csv?view=azure-devops) or [Github issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue)) or ITSM
-- [Azure portal workbook](https://github.com/Azure/cloud-rolesandops/releases/download/v0.91b/Planning.Guide.for.Cloud.Roles.and.Operations.Management.v0.91b.workbook)
+- [Basic Azure portal workbook](https://github.com/Azure/cloud-rolesandops/releases/download/v0.91b/Planning.Guide.for.Cloud.Roles.and.Operations.Management.v0.91b.workbook)
     - Environment information along with task and initiative direction in the Azure portal
-- [Azure portal workbook](https://github.com/Azure/cloud-rolesandops/tree/main/updateable%20workbook)
+- [Updateable Azure portal workbook](https://github.com/Azure/cloud-rolesandops/tree/main/updateable%20workbook)
     - Updateable version of the workbook (allows simple excel updates that flow through to Azure)
+    - Requires Excel on the web, an office script, an Azure Logic App, and an Azure Log Analytics Workspace
 
 ## What is a well-managed cloud?
 
