@@ -7,10 +7,9 @@
 - [Azure Log Analytics Workspace](https://docs.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-workspace-overview)
 
 ## Instructions
-
 - [Excel on the web](https://www.office.com/launch/excel) (published to Onedrive for Business, SharePoint or Teams) with an Office script to convert table data to json.
 [![](https://github.com/Azure/cloud-rolesandops/blob/main/images/excelonweb.jpg)](https://github.com/Azure/cloud-rolesandops/blob/main/images/excelonweb.jpg))
-- Office Script
+- [Office Script](https://docs.microsoft.com/en-us/microsoft-365/admin/manage/manage-office-scripts-settings)
 ```typescript
 function main(workbook: ExcelScript.Workbook): TableData[] {
   // Get the first table in the "mastertasklist" worksheet.
@@ -81,3 +80,5 @@ interface TableData {
   referenceUrl2: string
 }
 ```
+- [Azure Logic App](https://docs.microsoft.com/en-us/azure/logic-apps/)
+[![](https://github.com/Azure/cloud-rolesandops/blob/main/images/logicapp.jpg)](https://github.com/Azure/cloud-rolesandops/blob/main/images/logicapp.jpg))
