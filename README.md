@@ -2,6 +2,17 @@
 
 [![](https://github.com/Azure/cloud-rolesandops/blob/main/images/list.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/list.png)
 
+This repository provides recommendations for cloud roles, day-to-day routine tasks, and initiatives for targeted operations. It is intended to be a starting point for operating Azure.
+
+Artefacts:
+- [Excel spreadsheet](https://github.com/Azure/cloud-rolesandops/releases/download/v0.91b/cromv09.xlsx)
+    - Use as-as, or import to Devops (e.g, [Azure Devops work items](https://docs.microsoft.com/en-us/azure/devops/boards/queries/import-work-items-from-csv?view=azure-devops) or [Github issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue)) or ITSM
+- [Basic Azure portal workbook](https://github.com/Azure/cloud-rolesandops/releases/download/v0.91b/Planning.Guide.for.Cloud.Roles.and.Operations.Management.v0.91b.workbook)
+    - Environment information along with task and initiative direction in the Azure portal
+- [Updateable Azure portal workbook](https://github.com/Azure/cloud-rolesandops/tree/main/updateable%20workbook)
+    - Updateable version of the workbook (allows simple excel updates that flow through to Azure)
+    - Requires Excel on the web, an office script, an Azure Logic App, and an Azure Log Analytics Workspace
+
 ## What is a well-managed cloud?
 
 A well-managed cloud is one that is compliant, observable, recoverable, reliable, performant, updateable, cost managed, secured, inventoried and operationally excellent. This list represent an expansion of the 5 pillars of the [**Microsoft Azure Well-Architected Framework**](https://docs.microsoft.com/azure/architecture/framework/?WT.mc_id=Portal-fx), and is suggested as a framework for managing Azure environments.
@@ -129,7 +140,9 @@ Services that can be used to provide operational excellence in Azure include:
 
 [![](https://github.com/Azure/cloud-rolesandops/blob/main/images/operationalexcellence.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/operationalexcellence.png)
 
-Activities, alerts and policies for managing services, platform resources, application resources and solutions are presented for these items in this project.
+## Examples
+
+Activities, alerts and policies for Azure services, platform resources, application resources and solutions are presented for each of the critical areas of management in this project.
 
 ### Example 1: Azure Virtual Desktop
 
