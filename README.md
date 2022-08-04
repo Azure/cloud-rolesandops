@@ -2,6 +2,15 @@
 
 [![](https://github.com/Azure/cloud-rolesandops/blob/main/images/list.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/list.png)
 
+This repository provides recommendations for cloud roles, day-to-day routine tasks, and initiatives for targeted operations. It is intended to be a starting point for operating Azure.
+
+Artefacts include:
+- [Excel spreadsheet](https://github.com/Azure/cloud-rolesandops/releases/download/v0.91b/cromv09.xlsx)
+    - Use as-as, or import to Devops (e.g, [Azure Devops work items](https://docs.microsoft.com/en-us/azure/devops/boards/queries/import-work-items-from-csv?view=azure-devops) or [Github issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue)) or ITSM
+- [Azure portal workbook](https://github.com/Azure/cloud-rolesandops/releases/download/v0.91b/Planning.Guide.for.Cloud.Roles.and.Operations.Management.v0.91b.workbook)
+    - Environment information along with task and initiative direction in the Azure portal
+- [Azure portal workbook (updateable with Excel on the web and a logic app)]()
+
 ## What is a well-managed cloud?
 
 A well-managed cloud is one that is compliant, observable, recoverable, reliable, performant, updateable, cost managed, secured, inventoried and operationally excellent. This list represent an expansion of the 5 pillars of the [**Microsoft Azure Well-Architected Framework**](https://docs.microsoft.com/azure/architecture/framework/?WT.mc_id=Portal-fx), and is suggested as a framework for managing Azure environments.
