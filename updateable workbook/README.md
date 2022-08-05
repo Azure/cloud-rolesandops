@@ -7,8 +7,8 @@
 - [Azure Log Analytics Workspace](https://docs.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-workspace-overview)
 
 ## Instructions
-- [Excel spreadsheet](https://github.com/Azure/cloud-rolesandops/releases/download/v0.91b/cromv09.xlsx) on the [web](https://www.office.com/launch/excel) (e.g., published to Onedrive for Business, SharePoint or Teams)
-[![](https://github.com/Azure/cloud-rolesandops/blob/main/images/excelonweb.jpg)](https://github.com/Azure/cloud-rolesandops/blob/main/images/excelonweb.jpg)
+- [Excel spreadsheet](/releases/download/v0.91b/cromv09.xlsx) on the [web](https://www.office.com/launch/excel) (e.g., published to Onedrive for Business, SharePoint or Teams)
+[![](/images/excelonweb.jpg)](/images/excelonweb.jpg)
 - [Office script to convert table data to json](https://docs.microsoft.com/en-us/microsoft-365/admin/manage/manage-office-scripts-settings)
 ```typescript
 function main(workbook: ExcelScript.Workbook): TableData[] {
@@ -82,5 +82,5 @@ interface TableData {
 ```
 - [Azure Logic App](https://docs.microsoft.com/en-us/azure/logic-apps/)
 
-[<img src="https://raw.githubusercontent.com/Azure/cloud-rolesandops/main/images/logicapp.jpg" width="750"/>](https://raw.githubusercontent.com/Azure/cloud-rolesandops/main/images/logicapp.jpg)
-- [Updateable Azure portal workbook](https://github.com/Azure/cloud-rolesandops/blob/main/updateable%20workbook/Planning%20Guide%20for%20Cloud%20Roles%20and%20Operations%20Management%20v0.9a.workbook) ([How to import a workbook](/updateable%20workbook/ImportWorkbook.md))
+[<img src="/images/logicapp.jpg" width="750"/>](/images/logicapp.jpg)
+- [Updateable Azure portal workbook](/updateable%20workbook/Planning%20Guide%20for%20Cloud%20Roles%20and%20Operations%20Management%20v0.9a.workbook) ([How to import a workbook](/updateable%20workbook/ImportWorkbook.md))
