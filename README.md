@@ -2,7 +2,7 @@
 
 Prescriptive guidance for cloud roles, tasks, and initiatives for targeted operations. It is intended as input to a cloud [operating model](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/operating-model) and operations plan.
 
-[![](https://github.com/Azure/cloud-rolesandops/blob/main/images/list.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/list.png)
+[![](/images/list.png)](/images/list.png)
 
 Why do we need an [operating model](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/operating-model/) and operations plan for the cloud?
 - _"Delivering on a cloud strategy requires solid planning, readiness, and adoption. But it's the ongoing operation of the digital assets that delivers tangible business outcomes."_ - [CAF](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/manage/)
@@ -20,27 +20,28 @@ Why do we need an [operating model](https://docs.microsoft.com/en-us/azure/cloud
     - [Performance Efficiency vs Reliability](https://docs.microsoft.com/en-us/azure/architecture/framework/scalability/tradeoffs#performance-efficiency-vs-reliability)
     - [Performance Efficiency vs Security](https://docs.microsoft.com/en-us/azure/architecture/framework/scalability/tradeoffs#performance-efficiency-vs-security)
 - Important questions like _'did I architect my solution cost efficiently, when the load signals were still an unknown, or did I over-provision?'_ need to be answered once services go fully into production. It is also important to routinely review these signals as technology is always evolving and environments are dynamic. 
-- A [well-managed cloud](https://github.com/Azure/cloud-rolesandops#what-is-a-well-managed-cloud) needs an operating model with an aligned operations plan, and modern tools to focus our environment management efforts.
+- A [well-managed cloud](#what-is-a-well-managed-cloud) needs an operating model with an aligned operations plan, and modern tools to focus our environment management efforts.
 
 ## Artifacts
 
-- [Excel spreadsheet](https://github.com/Azure/cloud-rolesandops/releases/download/v0.91b/cromv09.xlsx)
+- [Excel spreadsheet](/releases/download/v0.91b/cromv09.xlsx)
     - Use as-as, or import to Devops (e.g, [Azure Devops work items](https://docs.microsoft.com/en-us/azure/devops/boards/queries/import-work-items-from-csv?view=azure-devops) or [Github issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue)) or an ITSM tool
     - Includes recommended tasks, RACI, frequency, links and notes
-- [Basic Azure portal workbook](https://github.com/Azure/cloud-rolesandops/releases/download/v0.91b/Planning.Guide.for.Cloud.Roles.and.Operations.Management.v0.91b.workbook)
+- [Basic Azure portal workbook](/releases/download/v0.91b/Planning.Guide.for.Cloud.Roles.and.Operations.Management.v0.91b.workbook)
     - Environment information along with task and initiative direction in the Azure portal
     - Also includes service management information, suggested documentation and a a 'management score' (based on key indicators of management practices in the environment)
     - Documentation templates
-    [![](https://github.com/Azure/cloud-rolesandops/blob/main/images/wbdocs.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/wbdocs.png)
+    [![](/images/wbdocs.png)](/images/wbdocs.png)
     - Task definitions
-    [![](https://github.com/Azure/cloud-rolesandops/blob/main/images/wbtasks.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/wbtasks.png)
+    [![](/images/wbtasks.png)](/images/wbtasks.png)
     - Initiative definitions
-    [![](https://github.com/Azure/cloud-rolesandops/blob/main/images/wbinitiatives.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/wbinitiatives.png)
+    [![](/images/wbinitiatives.png)](/images/wbinitiatives.png)
     - Environment
-    [![](https://github.com/Azure/cloud-rolesandops/blob/main/images/wbenv.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/wbenv.png)
+    [![](/images/wbenv.png)](/images/wbenv.png)
     - Management score
-    [![](https://github.com/Azure/cloud-rolesandops/blob/main/images/wbscore.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/wbscore.png)
-- [Updateable Azure portal workbook](https://github.com/Azure/cloud-rolesandops/tree/main/updateable%20workbook)
+    [![](/images/wbscore.png)](/images/wbscore.png)
+    - [How to import a workbook](/updateable%20workbook/ImportWorkbook.md)
+- [Updateable Azure portal workbook](/updateable%20workbook)
     - Updateable version of the workbook (allows simple excel updates that flow through to Azure)
     - Requires Excel on the web, an office script, an Azure Logic App, and an Azure Log Analytics Workspace
 
@@ -90,7 +91,7 @@ Services that can be used to manage compliance in Azure include:
 - In-guest VM Policy
 - Desired State Configuration
 
-[![](https://github.com/Azure/cloud-rolesandops/blob/main/images/compliant.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/compliant.png)
+[![](/images/compliant.png)](/images/compliant.png)
 
 ### Observable (WAF: Operational Excellence)
 
@@ -103,7 +104,7 @@ Services that can be used to manage observability in Azure include:
 - Activity Log
 - Network Watcher
 
-[![](https://github.com/Azure/cloud-rolesandops/blob/main/images/observable.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/observable.png)
+[![](/images/observable.png)](/images/observable.png)
 
 ### Recoverable (WAF: Reliability)
 
@@ -112,7 +113,7 @@ Services that can be used to manage recovery in Azure include:
 - Azure Site Recovery
 - Devops Redeploy
 
-[![](https://github.com/Azure/cloud-rolesandops/blob/main/images/recoverable.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/recoverable.png)
+[![](/images/recoverable.png)](/images/recoverable.png)
 
 ### Reliable (WAF: Reliability)
 
@@ -124,7 +125,7 @@ Services that can be used to manage reliability in Azure include:
 - Workbooks
 - Alerts that prevent downtime or reduce MTTR
 
-[![](https://github.com/Azure/cloud-rolesandops/blob/main/images/reliable.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/reliable.png)
+[![](/images/reliable.png)](/images/reliable.png)
 
 ### Performant (WAF: Performance)
 
@@ -137,7 +138,7 @@ Services that can be used to manage performance in Azure include:
 - Workbooks
 - Network Watcher
 
-[![](https://github.com/Azure/cloud-rolesandops/blob/main/images/performant.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/performant.png)
+[![](/images/performant.png)](/images/performant.png)
 
 ### Updateable (WAF: Reliability)
 
@@ -147,7 +148,7 @@ Services that can be used to manage updates in Azure include:
 - Planned maintenance (Service Health)
 - Devops Update
 
-[![](https://github.com/Azure/cloud-rolesandops/blob/main/images/updateable.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/updateable.png)
+[![](/images/updateable.png)](/images/updateable.png)
 
 ### Cost Managed (WAF: Cost Management)
 
@@ -156,7 +157,7 @@ Services that can be used to manage cost in Azure include:
 - Cost Management & Billing
 - EA Portal (Account hierarchy, credit balance, cost for each department, account, and subscription)
 
-[![](https://github.com/Azure/cloud-rolesandops/blob/main/images/cost.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/cost.png)
+[![](/images/cost.png)](/images/cost.png)
 
 ### Secured (WAF: Security)
 
@@ -176,7 +177,7 @@ Services that can be used to manage security in Azure include:
 - DDoS
 - NSG
 
-[![](https://github.com/Azure/cloud-rolesandops/blob/main/images/secure.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/secure.png)
+[![](/images/secure.png)](/images/secure.png)
 
 ### Inventoried (WAF: Operational Excellence)
 
@@ -185,7 +186,7 @@ Services that can be used to manage inventory in Azure include:
 - Defender for Cloud (Inventory)
 - Automation (Change Tracking & Inventory)
 
-[![](https://github.com/Azure/cloud-rolesandops/blob/main/images/inventory.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/inventory.png)
+[![](/images/inventory.png)](/images/inventory.png)
 
 ### Operational Excellence (WAF: Operational Excellence)
 
@@ -199,7 +200,7 @@ Services that can be used to provide operational excellence in Azure include:
 - Reviews
 - Automation (AA, LA, Functions)
 
-[![](https://github.com/Azure/cloud-rolesandops/blob/main/images/operationalexcellence.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/operationalexcellence.png)
+[![](/images/operationalexcellence.png)](/images/operationalexcellence.png)
 
 ## Examples
 
@@ -207,11 +208,11 @@ Activities, alerts and policies for Azure services, platform resources, applicat
 
 ### Example 1: Azure Virtual Desktop
 
-[![](https://github.com/Azure/cloud-rolesandops/blob/main/images/avd.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/avd.png)
+[![](/images/avd.png)](/images/avd.png)
 
 ### Example 2: ExpressRoute
 
-[![](https://github.com/Azure/cloud-rolesandops/blob/main/images/exr.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/exr.png)
+[![](/images/exr.png)](/images/exr.png)
 
 ## Contributing
 
