@@ -2,7 +2,7 @@
 
 Prescriptive guidance for cloud roles, tasks, and initiatives for targeted operations. It is intended as input to a cloud [operating model](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/operating-model) and operations plan.
 
-[![](https://github.com/Azure/cloud-rolesandops/blob/main/images/list.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/list.png)
+[![](/images/list.png)](/images/list.png)
 
 Why do we need an [operating model](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/operating-model/) and operations plan for the cloud?
 - _"Delivering on a cloud strategy requires solid planning, readiness, and adoption. But it's the ongoing operation of the digital assets that delivers tangible business outcomes."_ - [CAF](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/manage/)
@@ -40,6 +40,7 @@ Why do we need an [operating model](https://docs.microsoft.com/en-us/azure/cloud
     [![](https://github.com/Azure/cloud-rolesandops/blob/main/images/wbenv.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/wbenv.png)
     - Management score
     [![](https://github.com/Azure/cloud-rolesandops/blob/main/images/wbscore.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/wbscore.png)
+    - [How to import a workbook](/updateable%20workbook/ImportWorkbook.md)
 - [Updateable Azure portal workbook](https://github.com/Azure/cloud-rolesandops/tree/main/updateable%20workbook)
     - Updateable version of the workbook (allows simple excel updates that flow through to Azure)
     - Requires Excel on the web, an office script, an Azure Logic App, and an Azure Log Analytics Workspace

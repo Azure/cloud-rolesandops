@@ -83,5 +83,4 @@ interface TableData {
 - [Azure Logic App](https://docs.microsoft.com/en-us/azure/logic-apps/)
 
 [<img src="https://raw.githubusercontent.com/Azure/cloud-rolesandops/main/images/logicapp.jpg" width="750"/>](https://raw.githubusercontent.com/Azure/cloud-rolesandops/main/images/logicapp.jpg)
-- [Updateable Azure portal workbook](https://github.com/Azure/cloud-rolesandops/blob/main/updateable%20workbook/Planning%20Guide%20for%20Cloud%20Roles%20and%20Operations%20Management%20v0.9a.workbook)
-    - [Instructions](/updateable%20workbook/ImportWorkbook.md)
+- [Updateable Azure portal workbook](https://github.com/Azure/cloud-rolesandops/blob/main/updateable%20workbook/Planning%20Guide%20for%20Cloud%20Roles%20and%20Operations%20Management%20v0.9a.workbook) ([How to import a workbook](/updateable%20workbook/ImportWorkbook.md))
