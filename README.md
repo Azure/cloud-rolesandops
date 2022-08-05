@@ -24,10 +24,10 @@ Why do we need an [operating model](https://docs.microsoft.com/en-us/azure/cloud
 
 ## Artifacts
 
-- [Excel spreadsheet](/releases/download/v0.91b/cromv09.xlsx)
+- [Excel spreadsheet](https://github.com/Azure/cloud-rolesandops/releases/download/v0.91b/cromv09.xlsx)
     - Use as-as, or import to Devops (e.g, [Azure Devops work items](https://docs.microsoft.com/en-us/azure/devops/boards/queries/import-work-items-from-csv?view=azure-devops) or [Github issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue)) or an ITSM tool
     - Includes recommended tasks, RACI, frequency, links and notes
-- [Basic Azure portal workbook](/releases/download/v0.91b/Planning.Guide.for.Cloud.Roles.and.Operations.Management.v0.91b.workbook)
+- [Basic Azure portal workbook](https://github.com/Azure/cloud-rolesandops/releases/download/v0.91b/Planning.Guide.for.Cloud.Roles.and.Operations.Management.v0.91b.workbook)
     - Environment information along with task and initiative direction in the Azure portal
     - Also includes service management information, suggested documentation and a a 'management score' (based on key indicators of management practices in the environment)
     - Documentation templates
