@@ -20,7 +20,7 @@ Why do we need an [operating model](https://docs.microsoft.com/en-us/azure/cloud
     - [Performance Efficiency vs Reliability](https://docs.microsoft.com/en-us/azure/architecture/framework/scalability/tradeoffs#performance-efficiency-vs-reliability)
     - [Performance Efficiency vs Security](https://docs.microsoft.com/en-us/azure/architecture/framework/scalability/tradeoffs#performance-efficiency-vs-security)
 - Important questions like _'did I architect my solution cost efficiently, when the load signals were still an unknown, or did I over-provision?'_ need to be answered once services go fully into production. It is also important to routinely review these signals as technology is always evolving and environments are dynamic. 
-- A [well-managed cloud](https://github.com/Azure/cloud-rolesandops#what-is-a-well-managed-cloud) needs an operating model with an aligned operations plan.
+- A [well-managed cloud](https://github.com/Azure/cloud-rolesandops#what-is-a-well-managed-cloud) needs an operating model with an aligned operations plan, and modern tools to focus our environment management efforts.
 
 ## Artifacts
 
@@ -44,7 +44,7 @@ Why do we need an [operating model](https://docs.microsoft.com/en-us/azure/cloud
     - Updateable version of the workbook (allows simple excel updates that flow through to Azure)
     - Requires Excel on the web, an office script, an Azure Logic App, and an Azure Log Analytics Workspace
 
-## Table of inclusions
+## Table of included guidance
 
 | Category  | Technology  | Version  | Tasks  |
 | ------------ | ------------ | ------------ | ------------ |
