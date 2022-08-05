@@ -1,8 +1,25 @@
 # Cloud Roles and Operations Management
 
-This repository provides recommendations for cloud roles, day-to-day routine tasks, and initiatives for targeted operations. It is intended to be a starting point for operating Azure.
+Prescriptive guidance for cloud roles, tasks, and initiatives for targeted operations. It is intended as a starting point to establish a cloud [operating model](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/operating-model/ and operations plan.
 
 [![](https://github.com/Azure/cloud-rolesandops/blob/main/images/list.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/list.png)
+
+Why do we need an [operating model](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/operating-model/) and operations plan for the cloud?
+- _"Delivering on a cloud strategy requires solid planning, readiness, and adoption. But it's the ongoing operation of the digital assets that delivers tangible business outcomes."_ - [CAF](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/manage/)
+- Operating a cloud is a [shared responsibility](https://docs.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility)
+- Point-in-time IT architecture decisions during the adoption phase need to be reviewed over time to keep up with evolving technology and business requirements
+- Architecture tradeoffs during the adoption phase often need to be mitigated by solid operations practices. An example is the need to perform a disaster recovery within a required RTO, where cost constraints may have resulted in an architecture without highly available components. Architecture design tradeoff examples include:
+    - [Security vs Reliability](https://docs.microsoft.com/en-us/azure/architecture/framework/security/security-tradeoffs#security-vs-reliability)
+    - [Security vs Cost Optimization](https://docs.microsoft.com/en-us/azure/architecture/framework/security/security-tradeoffs#security-vs-cost-optimization)
+    - [Security vs Operational Excellence](https://docs.microsoft.com/en-us/azure/architecture/framework/security/security-tradeoffs#security-vs-operational-excellence)
+    - [Cost vs Reliability](https://docs.microsoft.com/en-us/azure/architecture/framework/cost/tradeoffs#cost-vs-reliability)
+    - [Cost vs Performance Efficiency](https://docs.microsoft.com/en-us/azure/architecture/framework/cost/tradeoffs#cost-vs-performance-efficiency)
+    - [Cost vs Operational Excellence](https://docs.microsoft.com/en-us/azure/architecture/framework/cost/tradeoffs#cost-vs-operational-excellence)
+    - [Performance Efficiency vs Operational Excellence](https://docs.microsoft.com/en-us/azure/architecture/framework/scalability/tradeoffs#performance-efficiency-vs-operational-excellence)
+    - [Performance Efficiency vs Reliability](https://docs.microsoft.com/en-us/azure/architecture/framework/scalability/tradeoffs#performance-efficiency-vs-reliability)
+    - [Performance Efficiency vs Security](https://docs.microsoft.com/en-us/azure/architecture/framework/scalability/tradeoffs#performance-efficiency-vs-security)
+- Important questions like 'did I architect my solution cost efficiently, when the load signals were still an unknown, or did I over-provision?' need to be answered once services go fully into production. It is also important to routinely review these signals as technology is always evolving and environments are dynamic. 
+- A [well-managed cloud](https://github.com/Azure/cloud-rolesandops#what-is-a-well-managed-cloud) needs an operating model and an aligned operations plan.
 
 ## Artifacts
 
