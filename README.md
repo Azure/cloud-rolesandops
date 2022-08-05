@@ -7,8 +7,9 @@ Prescriptive guidance for cloud roles, tasks, and initiatives for targeted opera
 Why do we need an [operating model](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/operating-model/) and operations plan for the cloud?
 - _"Delivering on a cloud strategy requires solid planning, readiness, and adoption. But it's the ongoing operation of the digital assets that delivers tangible business outcomes."_ - [CAF](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/manage/)
 - Operating a cloud is a [shared responsibility](https://docs.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility)
-- Point-in-time IT architecture decisions during the adoption phase need to be reviewed over time to keep up with evolving technology and business requirements
-- Architecture tradeoffs during the adoption phase often need to be mitigated by solid operations practices. An example is the need to perform a disaster recovery within a required RTO, where cost constraints may have resulted in an architecture without highly available components. Architecture design tradeoff examples include:
+- Architecture decisions during the adoption phase need to be reviewed over time to keep up with evolving technology and business requirements
+- Architecture tradeoffs often need to be mitigated with good operations practice. An example is to execute a well-understood, practiced system recovery within an RTO, where cost constraints may have resulted in an architecture without highly available components. 
+- Architecture design tradeoff examples:
     - [Security vs Reliability](https://docs.microsoft.com/en-us/azure/architecture/framework/security/security-tradeoffs#security-vs-reliability)
     - [Security vs Cost Optimization](https://docs.microsoft.com/en-us/azure/architecture/framework/security/security-tradeoffs#security-vs-cost-optimization)
     - [Security vs Operational Excellence](https://docs.microsoft.com/en-us/azure/architecture/framework/security/security-tradeoffs#security-vs-operational-excellence)
@@ -19,7 +20,7 @@ Why do we need an [operating model](https://docs.microsoft.com/en-us/azure/cloud
     - [Performance Efficiency vs Reliability](https://docs.microsoft.com/en-us/azure/architecture/framework/scalability/tradeoffs#performance-efficiency-vs-reliability)
     - [Performance Efficiency vs Security](https://docs.microsoft.com/en-us/azure/architecture/framework/scalability/tradeoffs#performance-efficiency-vs-security)
 - Important questions like 'did I architect my solution cost efficiently, when the load signals were still an unknown, or did I over-provision?' need to be answered once services go fully into production. It is also important to routinely review these signals as technology is always evolving and environments are dynamic. 
-- A [well-managed cloud](https://github.com/Azure/cloud-rolesandops#what-is-a-well-managed-cloud) needs an operating model and an aligned operations plan.
+- A [well-managed cloud](https://github.com/Azure/cloud-rolesandops#what-is-a-well-managed-cloud) needs an operating model with an aligned operations plan.
 
 ## Artifacts
 
