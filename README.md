@@ -1,13 +1,31 @@
 # Cloud Roles and Operations Management
 
-This repository provides recommendations for cloud roles, day-to-day routine tasks, and initiatives for targeted operations. It is intended to be a starting point for operating Azure.
+Prescriptive guidance for cloud roles, tasks, and initiatives for targeted operations. It is intended as input to a cloud [operating model](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/operating-model) and operations plan.
 
 [![](https://github.com/Azure/cloud-rolesandops/blob/main/images/list.png)](https://github.com/Azure/cloud-rolesandops/blob/main/images/list.png)
+
+Why do we need an [operating model](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/operating-model/) and operations plan for the cloud?
+- _"Delivering on a cloud strategy requires solid planning, readiness, and adoption. But it's the ongoing operation of the digital assets that delivers tangible business outcomes."_ - [CAF](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/manage/)
+- Operating a cloud is a [shared responsibility](https://docs.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility)
+- Architecture decisions during the adoption phase need to be reviewed over time to keep up with evolving technology and business requirements
+- Architecture tradeoffs often need to be mitigated with good operations practice. An example is to execute a well-understood, practiced system recovery within an RTO, where cost constraints may have resulted in an architecture without highly available components. 
+- Typical Architecture tradeoffs:
+    - [Security vs Reliability](https://docs.microsoft.com/en-us/azure/architecture/framework/security/security-tradeoffs#security-vs-reliability)
+    - [Security vs Cost Optimization](https://docs.microsoft.com/en-us/azure/architecture/framework/security/security-tradeoffs#security-vs-cost-optimization)
+    - [Security vs Operational Excellence](https://docs.microsoft.com/en-us/azure/architecture/framework/security/security-tradeoffs#security-vs-operational-excellence)
+    - [Cost vs Reliability](https://docs.microsoft.com/en-us/azure/architecture/framework/cost/tradeoffs#cost-vs-reliability)
+    - [Cost vs Performance Efficiency](https://docs.microsoft.com/en-us/azure/architecture/framework/cost/tradeoffs#cost-vs-performance-efficiency)
+    - [Cost vs Operational Excellence](https://docs.microsoft.com/en-us/azure/architecture/framework/cost/tradeoffs#cost-vs-operational-excellence)
+    - [Performance Efficiency vs Operational Excellence](https://docs.microsoft.com/en-us/azure/architecture/framework/scalability/tradeoffs#performance-efficiency-vs-operational-excellence)
+    - [Performance Efficiency vs Reliability](https://docs.microsoft.com/en-us/azure/architecture/framework/scalability/tradeoffs#performance-efficiency-vs-reliability)
+    - [Performance Efficiency vs Security](https://docs.microsoft.com/en-us/azure/architecture/framework/scalability/tradeoffs#performance-efficiency-vs-security)
+- Important questions like _'did I architect my solution cost efficiently, when the load signals were still an unknown, or did I over-provision?'_ need to be answered once services go fully into production. It is also important to routinely review these signals as technology is always evolving and environments are dynamic. 
+- A [well-managed cloud](https://github.com/Azure/cloud-rolesandops#what-is-a-well-managed-cloud) needs an operating model with an aligned operations plan.
 
 ## Artifacts
 
 - [Excel spreadsheet](https://github.com/Azure/cloud-rolesandops/releases/download/v0.91b/cromv09.xlsx)
-    - Use as-as, or import to Devops (e.g, [Azure Devops work items](https://docs.microsoft.com/en-us/azure/devops/boards/queries/import-work-items-from-csv?view=azure-devops) or [Github issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue)) or ITSM
+    - Use as-as, or import to Devops (e.g, [Azure Devops work items](https://docs.microsoft.com/en-us/azure/devops/boards/queries/import-work-items-from-csv?view=azure-devops) or [Github issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue)) or an ITSM tool
     - Includes recommended tasks, RACI, frequency, links and notes
 - [Basic Azure portal workbook](https://github.com/Azure/cloud-rolesandops/releases/download/v0.91b/Planning.Guide.for.Cloud.Roles.and.Operations.Management.v0.91b.workbook)
     - Environment information along with task and initiative direction in the Azure portal
