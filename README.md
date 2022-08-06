@@ -7,7 +7,7 @@ Prescriptive guidance for cloud roles, tasks, and initiatives for targeted opera
 Why do we need an [operating model](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/operating-model/) and operations plan for the cloud?
 - _"Delivering on a cloud strategy requires solid planning, readiness, and adoption. But it's the ongoing operation of the digital assets that delivers tangible business outcomes."_ - [CAF](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/manage/)
 - Operating a cloud is a [shared responsibility](https://docs.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility)
-- Architecture decisions during the adoption phase need to be reviewed over time to keep up with evolving technology and business requirements
+- Architecture decisions during the adoption phase need to be reviewed over time to keep up with evolving technology and business requirements. Technical enhancements to services that deliver better security, reliability and performance are examples that necessitate active operations.
 - Architecture tradeoffs often need to be mitigated with good operations practice. An example is to execute a well-understood, practiced system recovery within an RTO, where cost constraints may have resulted in an architecture without highly available components. 
 - Typical Architecture tradeoffs:
     - [Security vs Reliability](https://docs.microsoft.com/en-us/azure/architecture/framework/security/security-tradeoffs#security-vs-reliability)
