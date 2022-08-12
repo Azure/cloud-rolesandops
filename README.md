@@ -209,10 +209,12 @@ Activities, alerts and policies for Azure services, platform resources, applicat
 ### Example 1: Azure Virtual Desktop
 
 [![](/images/avd.png)](/images/avd.png)
+[![](/images/avdtasks.png)](/images/avdtasks.png)
 
 ### Example 2: ExpressRoute
 
 [![](/images/exr.png)](/images/exr.png)
+[![](/images/exrtasks.png)](/images/exrtasks.png)
 
 ## Contributing
 
