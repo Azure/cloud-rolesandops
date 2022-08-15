@@ -40,7 +40,7 @@ Why do we need an [operating model](https://docs.microsoft.com/en-us/azure/cloud
     [![](/images/wbenv.png)](/images/wbenv.png)
     - Management score
     [![](/images/wbscore.png)](/images/wbscore.png)
-    - [How to import a workbook](/updateable%20workbook/ImportWorkbook.md)
+    [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fcloud-rolesandops%2Fmain%2Fbasic%2520workbook%2FPlanning%2520Guide%2520for%2520Cloud%2520Roles%2520and%2520Operations%2520Management%2520v0.91b.json)
 - [Updateable Azure portal workbook](/updateable%20workbook)
     - Updateable version of the workbook (allows simple excel updates that flow through to Azure)
     - Requires Excel on the web, an office script, an Azure Logic App, and an Azure Log Analytics Workspace
