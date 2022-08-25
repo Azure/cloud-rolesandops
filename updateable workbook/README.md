@@ -7,7 +7,7 @@
 - [Azure Log Analytics Workspace](https://docs.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-workspace-overview)
 
 ## Instructions
-- [Excel spreadsheet](/releases/download/v0.91b/cromv09.xlsx) on the [web](https://www.office.com/launch/excel) (e.g., published to Onedrive for Business, SharePoint or Teams)
+- [Excel spreadsheet](https://github.com/Azure/cloud-rolesandops/releases/download/v0.91b/cromv09.xlsx) on the [web](https://www.office.com/launch/excel) (e.g., published to Onedrive for Business, SharePoint or Teams)
 [![](/images/excelonweb.jpg)](/images/excelonweb.jpg)
 - [Office script to convert table data to json](https://docs.microsoft.com/en-us/microsoft-365/admin/manage/manage-office-scripts-settings)
 ```typescript
