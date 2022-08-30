@@ -1,4 +1,5 @@
 {
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
     "workbookDisplayName": {
@@ -12518,11 +12519,11 @@
   "resources": [
     {
       "name": "[parameters('workbookId')]",
-      "type": "microsoft.insights/workbooks",
+      "type": "Microsoft.Insights/workbooks",
       "location": "[resourceGroup().location]",
+      "kind": "shared",
       "apiVersion": "2021-03-08",
       "dependsOn": [],
-      "kind": "shared",
       "properties": {
         "displayName": "[parameters('workbookDisplayName')]",
         "serializedData": "[string(variables('workbookContent'))]",
@@ -12537,6 +12538,5 @@
       "type": "string",
       "value": "[resourceId( 'microsoft.insights/workbooks', parameters('workbookId'))]"
     }
-  },
-  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#"
+  }
 }
