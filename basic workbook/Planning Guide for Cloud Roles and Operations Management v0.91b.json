@@ -14619,9 +14619,9 @@
       "name": "[parameters('workbookId')]",
       "type": "Microsoft.Insights/workbooks",
       "location": "[resourceGroup().location]",
+      "kind": "shared",
       "apiVersion": "2021-03-08",
       "dependsOn": [],
-      "kind": "shared",
       "properties": {
         "displayName": "[parameters('workbookDisplayName')]",
         "serializedData": "[string(variables('workbookContent'))]",
