@@ -27,7 +27,9 @@ Why do we need an [operating model](https://docs.microsoft.com/en-us/azure/cloud
 - [Excel spreadsheet](https://github.com/Azure/cloud-rolesandops/releases/download/v0.91b/cromv09.xlsx)
     - Use as-as, or import to Devops (e.g, [Azure Devops work items](https://docs.microsoft.com/en-us/azure/devops/boards/queries/import-work-items-from-csv?view=azure-devops) or [Github issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue)) or an ITSM tool
     - Includes recommended tasks, RACI, frequency, links and notes
-- [Basic Azure portal workbook](https://github.com/Azure/cloud-rolesandops/releases/download/v0.91b/Planning.Guide.for.Cloud.Roles.and.Operations.Management.v0.91b.workbook)
+- Basic Azure portal workbook
+
+  [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fcloud-rolesandops%2Fmain%2Fbasic%2520workbook%2FPlanning%2520Guide%2520for%2520Cloud%2520Roles%2520and%2520Operations%2520Management%2520v0.92b.json)
     - Environment information along with task and initiative direction in the Azure portal
     - Also includes service management information, suggested documentation and a a 'management score' (based on key indicators of management practices in the environment)
     - Documentation templates
@@ -39,8 +41,7 @@ Why do we need an [operating model](https://docs.microsoft.com/en-us/azure/cloud
     - Environment
     [![](/images/wbenv.png)](/images/wbenv.png)
     - Management score
-    [![](/images/wbscore.png)](/images/wbscore.png)
-    [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fcloud-rolesandops%2Fmain%2Fbasic%2520workbook%2FPlanning%2520Guide%2520for%2520Cloud%2520Roles%2520and%2520Operations%2520Management%2520v0.91b.json)
+    [![](/images/wbscore.png)](/images/wbscore.png)    
 - [Updateable Azure portal workbook](/updateable%20workbook)
     - Updateable version of the workbook (allows simple excel updates that flow through to Azure)
     - Requires Excel on the web, an office script, an Azure Logic App, and an Azure Log Analytics Workspace
